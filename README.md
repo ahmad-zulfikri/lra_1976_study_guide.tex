@@ -1,10 +1,9 @@
 \documentclass[11pt, a4paper]{article}
 \usepackage[a4paper, top=1.8cm, bottom=1.8cm, left=1.5cm, right=1.5cm]{geometry}
-\usepackage{fontspec}
+\usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-
-% Set Noto Sans as default font for crisp, modern reading
-\babelfont{rm}{Noto Sans}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
 
 \usepackage{xcolor}
 \usepackage{tcolorbox}
